@@ -1,0 +1,108 @@
+
+body div.container-fluid{
+    width: 90%;
+    padding: 0px;
+    background-color: #181818 !important;
+    color: #fff;
+}
+hr{
+    border: 2px;
+    background-color: #000;
+}
+header div img{
+    height: 300px !important;
+    width: 100%;
+}
+nav div.row{
+    display: inline-flex;
+    padding: 0px 5px 0px 5px;
+}
+nav ul li{
+    border-radius: 5px 5px 5px 5px;
+    margin: 15px 10px 15px 10px;
+    padding: 5px 30px;
+    background-color: #b2b2b2;
+    list-style: none;
+}
+nav ul.boutonG{
+    padding: 0px;
+    float: left;
+    display: inline-flex;
+    margin-bottom: 0px;
+}
+
+nav ul.boutonD{
+margin-left: 115px;
+    float: right;
+    display: inline-flex;
+}
+nav div img{
+    width : 540%;
+    position: absolute;
+}
+nav div.separation{
+    position: relative;
+display: inline-flex;
+margin-left: 20px;
+}
+nav div hr{
+    width: 260px;
+    margin-right: 160px;
+}
+
+div.contener{
+    width: 85%;
+}
+
+div p{
+    margin: 15PX 20px 40px 20px !important;
+    text-align: justify !important; 
+}
+
+div h3{
+    margin-left: 20px !important;
+    text-align: left !important;
+}
+
+/*------ Pied de page ------*/
+
+ul.pied{
+    display: inline-flex;
+    z-index: 150;
+    position: relative;
+    margin: 145px 0px 0px 0px;
+    list-style: none;
+}
+ul li.boutonB1{
+    margin-left: 20px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 0px 5px !important;
+    background-color: #b2b2b2;
+    height: 30px;
+}
+ul li.boutonB2{
+    margin-left: 115px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 0px 5px !important;
+    background-color: #b2b2b2;
+    height: 30px;
+}
+ul li.copyright{
+    margin-top: 10px;
+    color: #000;
+}
+ul li.icone1{
+    margin-left: 20px;
+    margin-right: 65px;
+}
+ul li.icone2{
+
+}
+#pied{
+    width: 96%;
+    height: 190px;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+    position: absolute;
+}
