@@ -1,0 +1,187 @@
+ 
+body div.container-fluid{
+    width: 90%;
+    padding: 0px;
+    background-color: #181818 !important;
+    color: #fff;
+    font-family: Verdana !important;
+}
+body a{
+    background-color: transparent !important;
+    text-decoration: none;
+    color: #fff !important;
+}
+
+hr{
+    border: 2px;
+    background-color: #000;
+}
+
+
+
+
+@media (max-width: 768px) {
+  nav ul li {
+    border-radius: 0 !important;
+    border-style: none !important;
+    margin: 0 !important; 
+    padding: 0 !important;
+    background-color: #181818 !important; 
+    background-image: none !important;
+    list-style: none;
+}
+}
+
+@media (min-width: 768px) {
+ .navbar-default {
+    background-image: url('../img/logo2.png');
+    background-repeat: no-repeat;
+    background-position: 50% 5px;
+    border-style: none !important;
+    padding-bottom: 75px;
+}
+}
+.navbar-default {
+    background-color: #181818 !important;
+}
+.navbar-right {
+    margin-right: 0px !important;
+}
+nav ul li{
+    border-radius: 5px 5px 5px 5px;
+    margin: 15px 10px 15px 10px;
+    padding: 5px 30px;
+    background-color: #b2b2b2;
+    list-style: none;
+}
+nav ul.boutonG{
+    padding: 0px;
+    float: left;
+    display: inline-flex;
+    margin-bottom: 0px;
+}
+
+nav ul.boutonD{
+    margin-left: 115px;
+    float: right;
+    display: inline-flex;
+}
+nav div.separation{
+    position: relative;
+    display: inline-flex;
+    margin-left: 20px;
+}
+nav div hr{
+    width: 260px;
+    margin-right: 160px;
+}
+
+div.contener{
+    width: 85%;
+}
+
+div p{
+    margin: 15PX 20px 40px 20px !important;
+    text-align: justify !important; 
+}
+
+div h3{
+    margin-left: 20px !important;
+    text-align: left !important;
+}
+
+/*------ Pied de page ------*/
+
+ul.pied{
+    display: inline-flex;
+    z-index: 150;
+    position: relative;
+    margin: 70px 0px;
+    list-style: none;
+}
+ul li.boutonB1{
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 0px 5px;
+    background-color: #b2b2b2;
+    height: 30px;
+    margin: 150px 15px 0 25px;
+}
+ul li.boutonB2{
+ margin: 150px 0 0px 0;
+ border-radius: 5px 5px 5px 5px;
+ padding: 5px 5px 0px 5px;
+ background-color: #b2b2b2;
+ height: 30px;
+}
+ul li.copyright{
+    margin: 150px 0 0 0 !important;
+    color: #000;
+
+}
+ul li.icone1{
+    margin: 145px 190px 0 0;
+}
+ul li.icone2{
+    float: left;
+    margin: 145px 25px 0px 10px;
+
+}
+footer {
+    background-image: url('../img/copeau2.png');
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -25px;
+}
+footer div ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 220px;
+
+}
+footer a{
+    padding: 0px !important;
+}
+
+/*------page album ------*/
+div img.vignette{
+    width: 100%;
+    margin: 25px 0px 0px 50px;
+    position: relative;
+}
+
+div p.palbum{
+    padding: 15px 0px 60px 25px;
+}
+
+div h3{
+    padding: 10px 0px 0 30px;
+}
+
+/*------page atelier ------*/
+img.atelier{
+    width: 100%;
+margin: 20px 0 0 80px;
+}
+p.patelier{
+margin: 15PX 20px 40px 165px !important;
+text-align: justify !important;
+}
+h3.h3atelier{
+    padding: 10px 0px 0 140px;
+}
+
+/*------ page plan de site ------*/
+div.plan{
+    padding-left: 275px;
+} 
+
+/*------ page contact ------*/
+input.bouton{
+ border-radius: 5px 5px 5px 5px !important;
+ padding: 5px 5px 0px 5px !important;
+ background-color: #b2b2b2 !important;
+ height: 30px !important;
+}
